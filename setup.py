@@ -111,7 +111,7 @@ setup(
         "charset_normalizer >= 3.0.1; python_version < '3.7'",
         "charset_normalizer >= 3.2.0; python_version >= '3.7'",
         "courlan >= 0.9.5",
-        "git+https://github.com/efecan-circlelabs/htmldate@master[speed]",
+        "git+https://github.com/efecan-circlelabs/htmldate@master#egg=htmldate[speed]",
         "justext >= 3.0.0",
         "lxml >= 4.9.3",
         "urllib3 >= 1.26, < 2; python_version < '3.7'",
