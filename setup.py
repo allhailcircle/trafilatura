@@ -31,7 +31,7 @@ extras = {
         "brotli",
         "cchardet >= 2.1.7; python_version < '3.11'",  # build issue
         "faust-cchardet >= 2.1.18; python_version >= '3.11'",  # fix for build
-        "htmldate[speed] >= 1.6.0",
+        "git+https://github.com/efecan-circlelabs/htmldate@master[speed]",
         "py3langid >= 0.2.2",
         "pycurl >= 7.45.2",
     ],
